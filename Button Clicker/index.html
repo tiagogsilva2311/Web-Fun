@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button clicker</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="flex-container"> 
+        <!--Top Nav-->
+        <div id="top-nav" >
+            <div id="nav-bar">
+                <div class="navbarrel" >
+                    <p id="navtitle">Dojonary</p>
+                </div>
+                <div class="navbarrel" >
+                    <input type="text" placeholder="search" id="searchbar">
+                </div>
+                <div class="navbarrel">
+                    <button type="button" onclick=signin() id="login" >Login</button>
+                </div>
+
+            </div>
+        </div>
+        <!--Main Boxes-->
+        <div id="main" class="barrel">
+            <!--Main Left-->
+            <div id="main-left" class="barrel">
+                <!--Ninja def 1-->
+                <div class="cardbox">
+                    <div class="leftdef">
+                        <h1 class="ninja-text">ninja</h1>
+                        <h2 class="ninja-text" class="wordtype">noun</h2>
+                        <h3 class="ninja-text">Plural: ninjas</h3>
+                        <div class="buttonbox"> <button button onclick="like()" class="likes">13 likes</button></div>
+                        
+
+                    </div>
+                    <div class="rightdef">
+                        <p>A practitioner skilled in the <br><a href="https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a href="https://es.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></p>
+
+                    </div>
+
+                </div>
+                <!--Ninja Def 2-->
+
+                <div class="cardbox">
+                    <div class="leftdef">
+                        <h1 class="ninja-text">ninja</h1>
+                        <h2 class="ninja-text" class="wordtype">noun</h2>
+                        <h3 class="ninja-text">Plural: ninjas</h3>
+                        <div class="buttonbox"> <button onclick="like()" class="likes">13 likes</button></div>
+                        
+
+                    </div>
+                    <div class="rightdef">
+                        <p>A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks <br> down problems with <a href="https://es.wikipedia.org/wiki/Zen">zen</a>-like <br> focus</p>
+
+                    </div>
+
+                </div>
+                
+
+            </div>
+                <!--Main Right-->
+                <div id="main-right" class="barrel">
+                    <div id="defbox">
+                        <div class="rightbarrel">
+                            <h1>Dojonary is <br> defined by you</h1>
+                        </div>
+                        <div class="rightbarrel">
+                            <Button id="add-definition" onclick="vanish()">Add definition</Button>
+                        </div>
+                    </div>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+
+        
+        
+        
+    </div>
+    
+    
+    
+</body>
+</html>
