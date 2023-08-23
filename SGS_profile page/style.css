@@ -1,0 +1,194 @@
+/*General*/
+*{padding: 0px;
+margin: 0px auto;
+position: sticky;
+min-width: 20px;
+min-height: 20px;
+}
+
+.barrel{display: flex;
+width: 100%;
+min-width: fit-content;
+min-height: fit-content;
+overflow: scroll;}
+
+#flex_container {width: 100%;
+    height: 1100px;
+min-width: max-content;
+min-height: max-content;
+position: absolute;}
+
+    #main_box{height: 85%;
+    }
+
+/*Top Nav*/
+
+#top_nav{height: 15%;
+background-color:black;display: flex;
+min-width: 500px}
+
+#nav_links{
+height: 100%;
+flex: 1;
+}
+
+#profile_nav{font-size: 90px;
+font-weight: bolder;}
+
+#navs{ height: 100%;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+    margin-left: 200px;
+    list-style: none;
+    
+}
+
+.nav{font-weight: bolder;
+    font-size: 25px;
+    }
+
+    #buttonbox{display: flex;
+        flex: 1; height: 100%;
+    align-items: center;
+justify-content: right;
+}
+
+#login{position: absolute;
+right:180px;
+height: 80px;
+width: 190px;
+font-size: 40px;
+background-color: cornflowerblue;
+color: lightcyan;
+border-radius: 8px;
+}
+
+
+
+/*main boxes*/
+.element_head{width: 100%;
+    height: 25%;
+    display: flex;
+background-color: black;
+color: white;
+align-items: center;
+text-align: left;
+justify-content: left;}
+
+.element_head>h2{width: 100%;margin-left: 20px;}
+
+.elementbox{border: 3px outset lightslategray;
+}
+
+.rightheadertext{flex: 2;
+    margin-left: 15px;
+font-size: 25px;}
+
+    /*left Boxes*/
+    
+
+#main_left{flex: 2;}
+#main_right{flex: 1;}
+
+/* user card*/
+#user_card{height: 496px;
+margin: 50px 20px 40px 150px;}
+
+/* User card head*/
+#uc_head{width: 100%;
+height: 30%;
+background-color: cornflowerblue;}
+
+#avatar{position: relative;
+    top: 50px;
+    left: 30px;}
+
+/*user card body*/
+
+#user_name{font-size: 80px;
+margin-left: 20px;
+margin-top: 10px;}
+
+#maptag{display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;}
+    
+    #map_marker{flex: 1;
+    margin: 20px;}
+    
+    #city{flex:2;
+    font-size: 30px;
+    position: relative ;
+    left:-300px;
+    }
+
+    #titles{font-size: 20px;
+        margin: 0px 0px 80px 20px;
+        }
+
+        #profile_options{font-size: 20px;
+            align-items: flex-start;
+        justify-content: flex-start;
+    padding: 20px;}
+
+/*Education card*/
+
+#education_card{ margin: 20px 20px 0px 150px;
+height: 300px;}
+
+#ec_body{height:225px;
+padding: 40px;}
+    
+.education{margin: 10px;}
+    /*Right Boxes*/
+
+.elementbody
+{height: 75%;}
+    .circle{border: 1px solid lightgray; border-radius: 50%;
+    background-color: lightgray;
+height: 35px; width: 35px;
+text-align: center;
+align-items: center;
+color: black;
+font-size: 25px;
+margin-left: 20px;}
+
+.row{display: flex;
+align-items: center;
+height: 50px;
+width: 100%;
+justify-content: flex-start;
+margin: 10px;
+padding-right: 20px;
+text-align: left;}
+
+.connections{font-size: larger;
+position: relative;
+left: -30px;}
+
+.reqavatar{margin-right: 10px;
+}
+
+
+
+
+        #requests{height: 296px;
+        width: 70% ;
+        margin: 50px 20px 40px 20px;}
+
+        #contacts{height: 500px; width: 70%;
+        margin: 25px 20px 40px 20px;}
+
+        #contacts_footer{width: 100%;
+        justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 342px;
+
+border: 2px solid lightgray;}
+
+#viewmore { margin-left: 30px;
+text-align: center;
+height: 30px;}

@@ -1,0 +1,109 @@
+/* General */
+*{margin: 0px;
+padding: 0px;
+}
+
+#flex-container{height:1100px ; width: 100%;
+justify-content: center;
+display: flex;
+justify-content: center;}
+    
+
+#subcontainer{height: 100%;
+    width: 80%;
+    align-items: center;
+}
+
+
+/*subcontainer*/
+    /* top nav*/
+    #top-nav{width: 100%;
+    height: 15%;
+background-color: black;
+color: white;
+text-align: left;
+font-size: x-large;
+display: flex;
+align-items: center;}
+
+#navtitle{margin-left: 40px;}
+        
+
+/*Main*/
+.cardbox{width: 90%;
+align-self: center;
+border: 3px solid black;
+border-radius: 3px;}
+
+.row{width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+#avatarbox{height: 55%;
+margin: 40px 19.975px 0px 19.75px;}
+
+
+#mainheader {width: 100%;
+height: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 300%;}
+
+#avatar{height: 50%;}
+
+.ainfo{height:25%;
+font-size: 200%;}
+
+#mainbody{
+width: 100%;
+height: 75%;
+display: flex;}
+
+.barrel{height: 100%;}
+
+#mainleft{flex: 1;
+}
+
+#mainright{flex: 2;}
+    /*main left*/
+    /*main right*/
+    
+    .userbox{height: 235;
+    height: 235px;
+width: 638.92px;
+margin: 40px;
+border: 3px solid black;
+border-radius: 3px;}
+
+.userbox-head{height: 35%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;}
+
+.headerelement{display: flex;
+width: 80%;
+height: 80%;
+align-items: center;
+justify-content: center;}
+
+.headerinfo{width: 80%;
+height: 80%;
+justify-content: center;
+font-size: 140%;
+display: flex;
+align-items: center;}
+
+.userbox-body{width: 100%;
+display: flex;
+height: 65%;
+align-items: center;
+justify-content: center;
+font-size: 225%;}
+
+.btn{background-color: yellow;
+font-weight: bolder;
+box-shadow: 2px 2px 1px black ;}
+

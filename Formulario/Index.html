@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Ninja Registration</Title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+
+    <body>
+        <form action="#" method="get" id="ninja_form">
+
+            <h1>Registration form</h1>
+            
+            <!--Div del primer nombre-->
+            <div style="margin: 5px">
+                <label for="first_name">First name*</label>
+                <input type="text" name="full_name" id="first_name" required="required" placeholder="your name here">
+            </div>
+            
+            <!--Div del apellido-->
+            <div style="margin: 5px">
+                <label for="last_name">Last name*</label>
+                <input type="text" name="full_name" id="last_name" placeholder="Your last name" required="required">
+            </div>
+
+            <!--Div del email-->
+            <div style="margin: 5px">
+                <label for="email">Email address</label>
+                <input type="email" required="required" name="email" id="email" placeholder="your email adress">
+            </div>
+
+            <!--Div del password-->
+            <div style="margin: 5px">
+                <label for="password">Password*</label>
+                <input type="password" name="pass_info" id="password">
+            </div>
+
+            <!--div de password confirmation-->
+            <div style="margin: 5px">
+                <label for="pass_confirm">Confirm your password*</label>
+                <input type="password" name="pass_info" id="pass_confirm">
+            </div>
+
+            <!--Div DOB-->
+            <div style="margin: 5px">
+                <label for="dob">Birthday*</label>
+                <input type="date" required="required" name="dob" id="dob">
+            </div>
+
+            <!--bloque gender identity-->
+            
+                <h><strong>Gender identity:</strong></h>
+                <div style="margin: 5px"> 
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+
+                    <label for="non-binary">Non-binary</label>
+                    <input type="radio" name="gender" id="non-binary">
+
+                    <label for="no_answer">I prefer not answering</label>
+                    <input type="radio" name="gender" id="no_answer">
+                </div>
+            
+
+            <!--Description about myself-->
+            <span class="self_description">
+            <p>a short description about myself</p>
+            <textarea  name="Description" cols="35" rows="5"></textarea>
+            </span>
+
+            <!--Bloque favorite language-->
+            <div>
+                <label for="fav_language">Favorite language:</label>
+                <select name=" fav_language" id="fav_language">
+                    <option>Javascript</option>
+                    <option>Python</option>
+                    <option>C++</option>
+                    <Option>Ruby</Option>
+
+                </select>
+            </div>
+
+            <!--Checkbox de newsletter-->
+            <div style="margin: 5px">
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Yes I'd like to receive periodic email updates</label>
+            </div>
+
+            <!--Div del submit-->
+            <div style="margin: 5px">
+                <input type="submit" name="create_account" value="Create Account" id="create_account">
+            </div>
+
+            <h style="margin: 10px"><strong>*</strong>Indicates a required field</h>
+
+
+        </form>
+
+    
+    </body>
+</html>

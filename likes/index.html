@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<link href="style.css">
+<body>
+    <div id="flex-container">
+        <div id="subcontainer">
+            <!--top Nav-->
+            <div id="top-nav">
+                <h1 id="navtitle">Network</h1>
+            </div>
+            <!--main-->
+            
+            <div id="mainheader">
+                <h1>Your Feed</h1>
+            </div>
+            <div id="mainbody">
+                <!--main left-->
+                <div id="mainleft" class="barrel">
+
+                    <div class="cardbox" id="avatarbox">
+                        <div class="row ainfo" id="avatar">
+                            <img src="images/user-circle.png" width="226px" height="226px">
+                        </div>
+                        <div class="row ainfo"  id="addavatar">
+                            <h2> <a href="https://octodex.github.com/">add an avatar</a></h2>
+
+                        </div>
+                        <div class="row ainfo" id="avatarname">
+                            <h1>James Doe</h1>
+
+                        </div>
+
+                    </div>
+                
+                    <!--main right-->
+                </div>
+                <div id="mainright" class="barrel">
+                    <div class="userbox">
+                        <div class="userbox-head">
+                            <div class="headerelement"><h1 class="headerinfo">Ariella Ferrera</h1></div>
+                            <div class="headerelement"><span id="counter1" class="headerinfo likescount" >0</span><span class="headerinfo">Likes</span></div>
+                            <div class="headerelement"><button onclick="add()" class="headerinfo btn" type="button">Like</button></div>
+
+                        </div>
+                        <div class="userbox-body">
+                            <p> I just set up this new discord bot, let me <br> know what you thin about it <a href="https://discord.com/">Link</a></p>
+
+                        </div>
+                    </div>
+
+                    <div class="userbox">
+                        <div class="userbox-head">
+                            <div class="headerelement"><h1 class="headerinfo">Nicole Aniston</h1></div>
+                            <div class="headerelement"><span id="counter2"  class="headerinfo likescount">0</span><span class="headerinfo">Likes</span></div>
+                            <div class="headerelement"><button class="headerinfo btn" type="button" onclick="add2()">Like</button></div>
+
+                        </div>
+                        <div class="userbox-body">
+                            <p> Just finished my next <a href="http://thenoobcomic.com/">comic</a> check it out!</p>
+
+                        </div>
+                    </div>
+
+                    <div class="userbox">
+                        <div class="userbox-head">
+                            <div class="headerelement"><h1 class="headerinfo">Veronica Rayne</h1></div>
+                            <div class="headerelement"><span id="counter3"  class="headerinfo likescount" >0</span><span class="headerinfo">Likes</span></div>
+                            <div class="headerelement"><button onclick="add3()" class="headerinfo btn" type="button">Like</button></div>
+                            <script src="script.js"></script>
+
+                        </div>
+                        <div class="userbox-body">
+                            <p> I can't stop listening to this new <a href="https://www.youtube.com/watch?v=jHibTDJlTJw">song</a><br> who else is liking this? </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>

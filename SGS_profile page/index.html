@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Santiago G Silva</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="flex_container">
+
+            <!--Top Nav-->
+            <div id="top_nav" class="barrel">
+                <div id="nav_links">
+                    <ul id="navs">
+                        <li id="profile_nav">Profile</li>
+                        <li class="nav">Home</li>
+                        <li class="nav">My Profile</li>
+                        <li class="nav">Find Connections</li>
+                    </ul>
+
+                </div>
+                <div id="buttonbox">
+                    <button id="login">Sign in</button>
+
+                </div>
+
+            </div>
+
+            <!--main Box-->
+            <div id="main_box" class="barrel">
+
+                <!--Main left-->
+                <div id="main_left">
+                    
+                    <!--User Card-->
+                    <div id="user_card" class="elementbox">
+                        
+                        <!--User card head-->
+                        <div id="uc_head"> 
+                            <img src="Icons/user-circle.png" alt="avatar" id="avatar" height="120px" width="120px">
+
+                        </div>
+                        
+                        <!--User card bottom-->
+                        <div id="card_bottom">
+                            
+                            <h1 id="user_name">Jane Doe</h1>
+                            <div id="location">
+                                <ul id="maptag">
+                                    <li class="map_info" id="map_marker"><img src="Icons/map-marker.png" alt="map_marker"  width="20px" height="30px"></li>
+                                    <li class="map_info" id="city">Seattle</li>
+                                </ul>
+                                <div id="titles">
+                                    <p>Developer | Engineer | Problem Solver</p>
+                                    <p>Master of shadows and the Internet!</p>
+            
+                                </div>
+
+                                <div id="profile_options">
+                                    <img src="Icons/gear.png" alt="Gear" height="20px" width="20px" class="po">
+                                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="po"> edit profile</a>
+                                </div>
+                            </div>
+                            
+                        
+        
+                        </div>
+
+                    </div>
+
+
+                    <!--Education card-->
+                    
+                    <div id="education_card" class="elementbox">
+                        
+                        <!--Education card header-->
+                        <div id="ec_head" class="element_head">
+                            <h2>Education</h2>
+
+                        </div>
+
+                        <!--ED card body-->
+                        <div id="ec_body">
+                            <h2 class="education">Coding Dojo - Full Stack Bootcamp</h2>
+                            <h3 class="education">Dec 2022-Mar2022</h3>
+                            <h3 class="education">Triple black belt in Python, Javascript and MERN</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--Main right-->
+                <div id="main_right">
+
+                    
+                    <!--Friend requests box-->
+                    <div class="elementbox" id="requests">
+
+                        <!--Friends reqs header-->
+                        <div id="requestsheader" class="element_head">
+                            <span class="circle" id="reqcircle">2</span><label for="reqcircle" class="rightheadertext">Connection requests</label>
+
+                        </div>
+
+                        <!--Friends Req Body-->
+                        <div id="friendreq body" class="elementbody">
+                            <div class="row">
+                                <img src="icons/user-circle.png" height="40px" width="40px" class="reqavatar">
+                                <label class="connections">Todd E</label>
+                                <img src="icons/accept-circle.png" height="40px" width="40px">
+                                <img src="icons/close-circle.png" height="40px" width="40px">
+                            </div>
+
+                            <div class="row"><img src="icons/user-circle.png" height="40px" width="40px" class="reqavatar">
+                                <label class="connections">Phil K</label>
+                                <img src="icons/accept-circle.png" height="40px" width="40px" class="acceptdeny">
+                                <img src="icons/close-circle.png" height="40px" width="40px"class="acceptdeny"></div>
+                        </div>
+                        
+
+                    </div>
+                    
+                    <!--Contacts-->
+                    <div class="elementbox" id="contacts">
+
+                        <!--Contacts header-->
+                        <div id="contactsheader" class="element_head">
+                            <span class="circle" id="friendscircle">500</span><label for="friendscircle" class="rightheadertext">Connections</label>
+
+                        </div>
+
+                        <!--Contacts Body-->
+                        <div id="contacts_body" class="elementbody">
+                            <div class="row">
+                                <img src="icons/user-circle.png" height="40px" width="40px" class="reqavatar">
+                                <label class="connections">Adrien D</label>
+                            </div>
+
+                            <div class="row">
+                                <img src="icons/user-circle.png" height="40px" width="40px" class="reqavatar">
+                                <label class="connections">Anne J</label>
+                            </div>
+
+                            <div class="row">
+                                <img src="icons/user-circle.png" height="40px" width="40px" class="reqavatar">
+                                <label class="connections">Alayne T</label>
+                            </div>
+
+                            <div class="row">
+                                <img src="icons/user-circle.png" height="40px" width="40px" class="reqavatar">
+                                <label class="connections">Arry Y</label>
+                            </div>
+
+                            <div id="contacts_footer">
+                                <a id="viewmore" href="https://www.youtube.com/watch?v=JsQ24pjtsd8&t=14s">view more</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>

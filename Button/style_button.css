@@ -1,0 +1,10 @@
+.search{ display: inline-block; color:skyblue; background-color: gainsboro;
+border: 1px; border-style: groove; border-color: skyblue; border-radius: 45%; 
+font-size: small; margin-bottom: 15px; padding-left: 10px; padding-right: 10px; } 
+
+.plus {display: inline-block ;color:whitesmoke;border: 10px;margin-bottom: 10px;border-radius: 50%;font-weight: 300;background-color: aquamarine; padding: 2px;
+font-size: smaller; border-collapse: collapse;}
+
+.create_account {color:white; border: 1.5px; padding-left: 15px; padding-right: 15px; 
+    border-style: solid; background-color: blue; font-size: 14; font-weight: lighter; border-color:black;
+box-shadow: 3; border-collapse: collapse;}

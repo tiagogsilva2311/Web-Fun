@@ -1,0 +1,109 @@
+/*General*/
+
+*{margin: 0px;
+padding: 0px;
+}
+
+#flex-container{height: 1100px;
+justify-items: center;}
+
+.barrel{height: 90%;
+    width: 100%;}
+
+/*Top nav*/
+#top-nav {width: 100%;
+    height: 20%;
+    display: flex;
+align-items: center;
+justify-content: center;}
+
+#nav-bar{display: flex;
+    width: 80%;
+height: 80%;
+background-color: lightgrey;
+justify-content: center;
+align-items: center;
+}
+
+.navbarrel{display: flex;
+    flex: 1;
+height: 100%;
+justify-content: center;
+align-items: center;}
+
+#navtitle{display: flex;
+    height: 90%;
+width: 90%;
+text-align: center;
+font-size: 90px;
+align-items: center;}
+
+#searchbar{width: 90%; height: 40%;
+font-size: 190%;}
+
+#login{ width: 150px; height: 70px;
+font-size: 190%;
+font-weight: 900;
+background: cornflowerblue;
+box-shadow: 3px 3px 1px black;}
+
+
+
+/*Main*/
+#main{display: flex;}
+#main-left{flex: 2}
+#main-right{flex:1}
+
+.cardbox{margin: 30px;
+height: 43%;
+display: flex;
+border:4px solid black ;border-radius: 2%
+;}
+
+#defbox{margin: 30px;
+    height: 43%;
+    border:4px solid black ;border-radius: 2%
+; }
+
+.leftdef{flex: 1;
+height: 100%;
+text-align: center;
+}
+
+.ninja-text{position: relative;
+top: 30px;
+}
+
+.wordtype{font-style: italic;}
+
+.buttonbox{ height: 285px; 
+    display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+
+.likes{height: 60px; width: 100px;
+background-color: yellow;
+font-weight: 900;
+font-size: large;
+box-shadow: 3px 3px 1px black;}
+
+
+.rightdef{display: flex;
+    flex: 2;
+height: 100%;
+align-items: center;
+justify-content: center;
+font-size: xx-large;}
+
+.rightbarrel{display: flex;
+    height: 50%;
+width: 100%;
+align-items: center;
+justify-content: center;}
+
+#add-definition{background-color: olivedrab;
+width: 80%;
+font-weight: 900;
+height: 60%;
+font-size: 210%;}

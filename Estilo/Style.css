@@ -1,0 +1,8 @@
+.first {background-color: black;color:aqua; font-weight: bolder;
+    }
+    
+h1>span {color:white}
+
+h2 {text-align: center; color:white; background-color: rebeccapurple;font-weight: bold;}
+
+h3 {text-align: right; color:rebeccapurple; background-color: rgba(111, 183, 231, 0.699); text-decoration: underline;font-weight: lighter;} 

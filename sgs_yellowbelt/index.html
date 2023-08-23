@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dojo-sports</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="flex-container"
+    >
+        <!--Top Nav-->
+        <div id="top-nav">
+            <div id="summary">
+                <span id="headertitle"> Live Scores</span>
+                <div id="scores">
+                    <table id="tscores">
+                        <tr>
+                            <td>
+                                SJC Ninjas -314
+                            </td>
+                            <td>
+                                CHI Samurai - 0
+                            </td>
+                            <td>
+                                BOS Hackers -13
+                            </td>
+                            <td>
+                                BOI Knights - 5
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>NS Pirates - 159</td>
+                            <td>TUL Wizards - 0</td>
+                            <td>TYO Youkai- 37</td>
+                            <td>SEA Sea Lions - 11</td>
+                        </tr>
+                    </table>
+                </div>
+
+                
+
+                
+
+            </div>
+
+            <div id="navlinks">
+
+                <div class="DS">
+                    <span id="DSNN" >DSNN</span>
+                </div>
+                <div class="nav" id="navlist">
+                    <p class="nav subnav">Football</p>
+                    <p class="nav subnav">Basketball</p>
+                    <p class="nav subnav">Baseball</p>
+                    <p class="nav subnav">Soccer</p>
+                    <p class="nav subnav">More...</p>
+
+                </div>
+                <div class="nav" id="imgtools">
+                    <img class="subnav" src="images/hamburger-light.png" alt="hamburguer">
+                    <img class="subnav"  src="images/search-light.png" alt="search">
+                    <img class="subnav" src="images/user-circle-light.png" alt="avatar">
+
+                </div>
+
+            </div>
+        
+        </div>
+        <!--Main-->
+        <div id="main">
+            <!--Main left-->
+            <div id="mleft" class="barrel">
+                <div class="elementbox" id="topstories">
+                    <div class="elementheader"> <p class="elementhinfo">Top Stories<p></div>
+
+                        <div id="stories">
+                            <p class="elementinfo">Ninjas up big in 5th</p>
+                            <p class="elementinfo">Best sports cities</p>
+                            <p class="elementinfo">Choi joins hall of fame</p>
+                            <p class="elementinfo">Tournament underway</p>
+                            <p class="elementinfo">Tournament underway</p>
+                        </div>
+                </div>
+                
+                
+
+                <div class="elementbox" id="customize">
+                    <div class="elementrow" id="hcustomize">
+                        <p id="CDSNN"> Customize Your DSNN</p>
+
+                    </div>
+                    <div class="elementrow" id="bcustomize">
+                        <button class="lbtn" id="signinbtn">Sign in</button>
+                        <button class="lbtn" id="signupbtn">Sign up</button>
+
+                    </div>
+
+                </div>
+                <div class="elementbox" id="subbox">
+                    <p>Never Miss a Play</p>
+                    <button onclick="vanish()" id="subscribe">Subscribe</button>
+
+                </div>
+
+            </div>
+            <!--Main right-->
+            <div id="mright" class="barrel">
+
+                <div id="scoreboard" class="elementbox">
+
+                    <div id="main-title">
+                        <h1 id="redtitle">
+                            <span id="DOT">aa</span>
+                        <span>Live</span>
+                        </h1>
+                        <h1>Ninjas Leading Pirates</h1>
+                    </div>
+
+                    <div id="mainboard">
+                        <img src="images/sjc-ninjas.png" alt="ninjas">
+                        <h1>VS</h1>
+                        <img src="images/ns-pirates.png" alt="Pirates">
+
+                    </div>
+                    <div class="mboard" id="boardinfo">
+                        <div id="ninjas">
+                            <h2 class="scoreinfo greytext">San Jose</h2>
+                            <h1 class="scoreinfo" id="nameninjas">Ninjas</h1>
+                            <h3 class="scoreinfo greytext">(10 W - 3L)</h3>
+                            <h1 onclick="add()" id="t1score" class="scoreinfo intscore">314</h1>
+
+                        </div>
+
+                        <div id="t">
+                            <p><span onclick="timeout()" id="time">13</span><span>remaining</span></p>
+                            <p>5th period</p>
+
+                        </div>
+
+                        <div id="pirates">
+                            <h2 class="scoreinfo greytext">Nova Scotia</h2>
+                            <h1 class="scoreinfo" id="namepirates">Pirates</h1>
+                            <h3 class="scoreinfo greytext">(12 W - 2L)</h3>
+                            <h1 onclick="add2()" id="t2score" class="scoreinfo intscore">159</h1>
+                        </div>
+
+                        
+
+                </div>
+                <div id="footerbox">
+                    <p id="description">A conservative match between the two top-performing sides in the Central League Division with a number 1 seed at stake
+                        <a href="https://sports.yahoo.com/">get live updates</a>
+                    </p>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
